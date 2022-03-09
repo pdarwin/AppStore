@@ -35,11 +35,12 @@ public class AppStoreUI
 	
 		System.out.println("╔========  Bemvindo ao menu da AppStore  ========╗");
 		System.out.println("║"+ MyUtils.returnSpaces((48 -nome.length()) /2) + nome + 
-				MyUtils.returnSpaces((48 -nome.length()) /2) + "║");	
+				MyUtils.returnSpaces((48 -nome.length()) /2) + "║");
 		System.out.println("╠================================================╣");
+		System.out.println("║            * Escolha uma opção *               ║");
 		System.out.println("║                                                ║");
-		System.out.println("║              Escolha uma opção                 ║");
-		System.out.println("╠================================================╣");
+		System.out.println("║                                                ║");
+		System.out.println("║       1 - Registar utilizador                  ║");
 		System.out.println("║                                                ║");
 		System.out.println("║       0 - Sair                                 ║");
 		System.out.println("║                                                ║");
